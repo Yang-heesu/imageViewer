@@ -55,6 +55,7 @@
             this.btnPrev.TabIndex = 1;
             this.btnPrev.Text = "이전";
             this.btnPrev.UseVisualStyleBackColor = true;
+            this.btnPrev.Click += new System.EventHandler(this.BtnPrev_Click);
             // 
             // lblNum
             // 
@@ -122,6 +123,7 @@
             this.btnNext.TabIndex = 4;
             this.btnNext.Text = "다음";
             this.btnNext.UseVisualStyleBackColor = true;
+            this.btnNext.Click += new System.EventHandler(this.BtnNext_Click);
             // 
             // Form1
             // 
